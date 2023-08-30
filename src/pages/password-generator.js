@@ -31,7 +31,7 @@ const PasswordGenerator = () => {
 
   useEffect(() => {
     document.title =
-      'Generate cryptographically secure passwords/passphrases · pwizard'
+      'PassPhrase Generator · RRSMEDIA INC'
   })
 
   const onChange = (e) => {
@@ -44,7 +44,7 @@ const PasswordGenerator = () => {
 
   return (
     <div className={styles.container}>
-      <h1>pwizard</h1>
+      <h1>RRSMEDIA INC</h1>
       <p>
         Generate{' '}
         <a href="https://en.wikipedia.org/wiki/Cryptographically-secure_pseudorandom_number_generator">
@@ -227,7 +227,7 @@ const PasswordGenerator = () => {
       </div>
       <p>
         <Link to="/strength">Password strength checker</Link> &middot;{' '}
-        <a href="https://github.com/rsapkf/pwizard">Source</a>
+        <a href="https://inc.rrsmedia.co.in">Source</a>
       </p>
     </div>
   )
