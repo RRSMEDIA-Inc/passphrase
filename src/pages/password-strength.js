@@ -17,7 +17,7 @@ const PasswordStrength = () => {
   } = zxcvbn(input)
 
   useEffect(() => {
-    document.title = 'Password strength checker · pwizard'
+    document.title = 'PassPhrase Generator · RRSMEDIA INC'
   })
 
   return (
